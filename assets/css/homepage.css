@@ -18,6 +18,18 @@ img:hover {
     transform: scale(1.2, 1.2);
 }
 
+nav {
+    border-radius: 5px;
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.page-footer {
+    border-radius: 5px;
+}
+
 .about-me {
     margin: 20px;
 }
@@ -40,9 +52,9 @@ img:hover {
 }
 
 .section-header {
-    background-color: #001933;
+    background-color: #294558;
     color: whitesmoke;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 1px;
     display: block;
     margin-top: 50px;
@@ -51,3 +63,8 @@ img:hover {
     width: 20%;
     text-align: center;
 } 
+
+.contact-form {
+    background-color: #294558;
+    border-radius: 5px;
+}
