@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- importing google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize through CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="assets/css/homepage.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nathan Potts</title>
+</head>
+
+
+<body>
+    <!-- Navigation bar -->
+
+    <nav>
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center">Nathan Potts</a>
+            <ul class="left hide-on-med-and-down">
+                <li><a href="#about-me"><i class="material-icons">account_circle</i></a></li>
+                <li><a href="#projects"><i class="material-icons">folder</i></a></li>
+                <li><a href="#contact"><i class="material-icons">email</i></a></li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <!-- About me section -->
+    <div class="container-fluid row about-me valign-wrapper" id="about-me">
+        <div class="col m5">
+            <img id="profile-picture" class="responsive-img circle z-depth-5" src="assets/images/prof-picture.png">
+        </div>
+        <div class="col m6 offset-m1">
+            <div class="row">
+                <div class="card blue-grey darken-1 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">About Me</span>
+                        <p>Devoted and an incredibly hard worker, I will use my background in music and theatre to come
+                            up with a clever solution to your problem. Three traits to describe myself would be
+                            perseverance, creativity, and loyalty. </p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">LinkedIn</a>
+                        <a href="https://github.com/nathan-potts41">Github</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Going to add another card to the top when I have more links -->
+            <!-- <div class="row">
+                <div class="card blue-grey darken-1 z-depth-3">
+                    <div class="card-content white-text">
+                        <span class="card-title">Card Title</span>
+                        <p>I am a very simple card. I am good at containing small bits of information.
+                            I am convenient because I require little markup to use effectively.</p>
+                    </div>
+                    <div class="card-action">
+                        <a href="#">LinkedIn</a>
+                        <a href="https://github.com/nathan-potts41">Github</a>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="divider z-depth-3" id="projects"></div>
+
+    <!-- Projects section -->
+    <div class="section-header">
+        <h3 id="projecth3">Projects</h3>
+    </div>
+
+    <section class="container-fluid projects">
+        <div class="row">
+            <div class="col m6">
+                <div class="row">
+                    <div class="col m6">
+                        <a href="https://nathan-potts41.github.io/git-it-done/"><img class="responsive-img z-depth-3"
+                                src="assets/images/git-it-doneScreenShot.png">
+                    </div></a>
+                    <div class="col m6">
+                        <a href="https://nathan-potts41.github.io/run-buddy/"><img class="responsive-img z-depth-3"
+                                src="assets/images/run-BuddyScreenShot.png"></a>
+                    </div>
+
+                </div>
+                <div class="row"></div>
+            </div>
+            <div class="col m6">
+                <a href="https://minnesotanyst.github.io/pm-beta/index.html"><img class="responsive-img z-depth-5"
+                        src="assets/images/promeasureScreenShot.png"></a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider z-depth-3 dividerwhite" id="contact"></div>
+
+    <!-- Contact Info -->
+    <div class="section-header">
+        <h3>Contact Me</h3>
+    </div>
+
+    <section class="container-fluid contact">
+        <div class="row">
+            <div class="col m6 s12">
+                <div class="contact-info">
+                    <h5 class="card-title">My Information</h5>
+                    <ul>
+                        <li>Phone: 1.701.318.7255</li>
+                        <li>Email: nathan.potts41@gmail.com</li>
+                        <!-- Add a link so that it take user to a DM for my account -->
+                        <li>Linkedin</li>
+                </div>
+
+            </div>
+            <div class="col m6 s12">
+                <div class="row">
+                    <form class="col s12 contact-form">
+                        <div class="row">
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="first_name" type="text" class="validate">
+                                <label for="first_name">Full Name</label>
+                            </div>
+                            <div class="input-field col s6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="email" type="email" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s12">
+                                <div class="row">
+                                    <div class="input-field col s12">
+                                        <i class="material-icons prefix">mode_edit</i>
+                                        <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+                                        <label for="icon_prefix2">Message</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l12 s12">
+                    <h5 class="white-text">Thank You for Visiting my Profile!</h5>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2020 Nathan Potts
+            </div>
+        </div>
+    </footer>
+
+
+    <!--JavaScript cdn for Materialize -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="assets/js/homepage.js"></script>
+</body>
+
+</html>

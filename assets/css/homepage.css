@@ -1,0 +1,89 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("../../assets/images/Mountainimg.jpg");
+    background-size: cover;
+    margin: auto;
+    max-width: 80%;
+    font-family: 'Merriweather', serif;
+}
+
+img {
+    scale: (1, 1);
+    transition: transform .5s;
+}
+
+img:hover {
+    transform: scale(1.2, 1.2);
+}
+
+nav {
+    border-radius: 5px;
+    background-color: goldenrod;
+}
+
+.page-footer {
+    background-color: goldenrod;
+}
+
+.card {
+    border-radius: 5px;
+}
+
+.page-footer {
+    border-radius: 5px;
+}
+
+.about-me {
+    margin: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.projects {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    padding: 15px;
+    
+}
+
+#projecth3 {
+    color: rgba(7, 27, 53, 1);
+    text-decoration: underline;
+}
+
+.divider {
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: black;
+    
+}
+
+.dividerwhite {
+    background-color: white;
+}
+
+.section-header {
+    color: goldenrod;
+    text-decoration: underline;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin: auto;
+    text-align: center;
+} 
+
+.contact {
+    background-color: rgba(255, 255, 255, .85);
+    border-radius: 8px;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 220px;
+}
