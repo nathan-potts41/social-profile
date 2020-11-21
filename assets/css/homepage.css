@@ -2,11 +2,11 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    background-color: darkgray;
     background-image: url("../../assets/images/Mountainimg.jpg");
     background-size: cover;
     margin: auto;
     max-width: 80%;
+    font-family: 'Merriweather', serif;
 }
 
 img {
@@ -20,6 +20,11 @@ img:hover {
 
 nav {
     border-radius: 5px;
+    background-color: goldenrod;
+}
+
+.page-footer {
+    background-color: goldenrod;
 }
 
 .card {
@@ -52,19 +57,22 @@ nav {
 }
 
 .section-header {
-    background-color: #294558;
-    color: whitesmoke;
-    border-radius: 20px;
-    padding: 1px;
+    color: goldenrod;
+    text-decoration: underline;
     display: block;
     margin-top: 50px;
     margin-bottom: 50px;
     margin: auto;
-    width: 20%;
     text-align: center;
 } 
 
-.contact-form {
+.contact {
     background-color: #294558;
-    border-radius: 5px;
+    color: whitesmoke;
+    border-radius: 8px;
+    line-height: 40px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
 }

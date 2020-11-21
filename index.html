@@ -3,7 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-
+    <!-- importing google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize through CDN-->
@@ -67,8 +69,8 @@
     <div class="divider z-depth-3" id="projects"></div>
 
     <!-- Projects section -->
-    <div class="section-header">
-        <h4>Projects</h4>
+    <div class="section-header" id="section-p">
+        <h3>Projects</h3>
     </div>
 
     <section class="container-fluid projects">
@@ -94,22 +96,20 @@
     <div class="divider z-depth-3 dividerwhite" id="contact"></div>
 
     <!-- Contact Info -->
-    <div class="section-header">
-        <h4>Contact Me</h4>
+    <div class="section-header" id="section-c">
+        <h3>Contact Me</h3>
     </div>
 
     <section class="container-fluid contact">
         <div class="row">
             <div class="col m6 s12">
-                <div class="card blue-grey darken-1">
-                    <div class="card-content white-text">
-                        <span class="card-title">My Information</span>
-                        <ul>
-                            <li>Phone: 1.701.318.7255</li>
-                            <li>Email: nathan.potts41@gmail.com</li>
-                            <!-- Add a link so that it take user to a DM for my account -->
-                            <li>Linkedin</li>
-                    </div>
+                <div class="contact-info">
+                    <h5 class="card-title">My Information</h5>
+                    <ul>
+                        <li>Phone: 1.701.318.7255</li>
+                        <li>Email: nathan.potts41@gmail.com</li>
+                        <!-- Add a link so that it take user to a DM for my account -->
+                        <li>Linkedin</li>
                 </div>
 
             </div>
@@ -134,7 +134,7 @@
                                     <div class="input-field col s12">
                                         <i class="material-icons prefix">mode_edit</i>
                                         <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                                        <label for="icon_prefix2">First Name</label>
+                                        <label for="icon_prefix2">Message</label>
                                     </div>
                                 </div>
                             </div>
@@ -151,12 +151,8 @@
             <div class="row">
                 <div class="col l12 s12">
                     <h5 class="white-text">Thank You for Visiting my Profile!</h5>
-                    <p class="grey-text text-lighten-4">Don't hesitate to reach out and ask me questions about my work.
-                        I'd love to start a dialogue.</p>
                 </div>
-
             </div>
-
         </div>
         <div class="footer-copyright">
             <div class="container">
