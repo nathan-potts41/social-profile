@@ -37,12 +37,22 @@ nav {
 
 .about-me {
     margin: 20px;
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .projects {
-    margin: 50px 12px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     padding: 15px;
     
+}
+
+#projecth3 {
+    color: rgba(7, 27, 53, 1);
+    text-decoration: underline;
 }
 
 .divider {
@@ -67,12 +77,13 @@ nav {
 } 
 
 .contact {
-    background-color: #294558;
-    color: whitesmoke;
+    background-color: rgba(255, 255, 255, .85);
     border-radius: 8px;
     line-height: 40px;
     margin-top: 50px;
-    margin-bottom: 100px;
+    margin-bottom: 70px;
+    padding-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
+    height: 220px;
 }
